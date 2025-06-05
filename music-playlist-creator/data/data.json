@@ -1,0 +1,35 @@
+{
+    "playlist": [
+        {
+            "playlistID": 1,
+            "playlist_name": "Chill Vibes",
+            "playlist_author": "DJ Spinall",
+            "playlist_art": "assets/images/playlist.jpg",
+            "songs": [ "Song 1- Artist 1", "Song 2- Artist 2", "Song 3- Artist 3"]
+        },
+
+        {
+            "playlistID": 2,
+            "playlist_name": "You ain't gymming like me",
+            "playlist_author": "DJ Greg",
+            "playlist_art": "assets/images/playlist.jpg",
+            "songs": [ "Track 1- Greg 1", "Track 2- Greg 2 2", "Track 3- Greg 3"]
+        }
+
+        {
+            "playlistID": 1,
+            "playlist_name": "Hip Hop Mix",
+            "playlist_author": "DJ Elikem",
+            "playlist_art": "assets/images/playlist.jpg",
+            "songs": [ "Sound 1- Elikem 1", "Sound 2- Elikem 2", "Sound 3- Elikem 3"]
+        },
+
+        {
+            "playlistID": 1,
+            "playlist_name": "Summer Vibes",
+            "playlist_author": "DJ Gabe",
+            "playlist_art": "assets/images/playlist.jpg",
+            "songs": [ "Music 1- Gabe 1", "Music 2- Gabe 2", "Music 3- Gabe 3"]
+        }
+    ]
+}
