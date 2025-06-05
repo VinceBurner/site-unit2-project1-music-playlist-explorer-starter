@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Featured Playlist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🎧 Featured Playlist</h1>
+    <a href="index.html" class="featured-link">⬅ Back to All Playlists</a>
+    <button id="shuffle-featured" class="featured-btn">🎲 Shuffle Again</button>
+    <button id="top-liked" class="featured-btn">🔥 Top Liked</button>
+  </header>
+
+  <main class="featured-layout">
+    <section class="featured-left">
+      <img id="featured-art" src="" alt="Playlist Cover" />
+      <h2 id="featured-name">Playlist Name</h2>
+      <p id="featured-author">by DJ Name</p>
+      <p id="featured-likes">
+        ❤️ <span id="like-count">0</span>
+        <button id="like-button">🤍</button>
+      </p>
+    </section>
+
+    <section class="featured-right">
+      <h3>Songs</h3>
+      <ul id="featured-songs" class="song-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Music Playlist Explorer</p>
+  </footer>
+
+  <script src="featured.js"></script>
+</body>
+</html>

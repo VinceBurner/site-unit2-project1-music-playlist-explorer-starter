@@ -1,35 +1,176 @@
 {
-    "playlist": [
-        {
-            "playlistID": 1,
-            "playlist_name": "Chill Vibes",
-            "playlist_author": "DJ Spinall",
-            "playlist_art": "assets/images/playlist.jpg",
-            "songs": [ "Song 1- Artist 1", "Song 2- Artist 2", "Song 3- Artist 3"]
-        },
-
-        {
-            "playlistID": 2,
-            "playlist_name": "You ain't gymming like me",
-            "playlist_author": "DJ Greg",
-            "playlist_art": "assets/images/playlist.jpg",
-            "songs": [ "Track 1- Greg 1", "Track 2- Greg 2 2", "Track 3- Greg 3"]
-        }
-
-        {
-            "playlistID": 1,
-            "playlist_name": "Hip Hop Mix",
-            "playlist_author": "DJ Elikem",
-            "playlist_art": "assets/images/playlist.jpg",
-            "songs": [ "Sound 1- Elikem 1", "Sound 2- Elikem 2", "Sound 3- Elikem 3"]
-        },
-
-        {
-            "playlistID": 1,
-            "playlist_name": "Summer Vibes",
-            "playlist_author": "DJ Gabe",
-            "playlist_art": "assets/images/playlist.jpg",
-            "songs": [ "Music 1- Gabe 1", "Music 2- Gabe 2", "Music 3- Gabe 3"]
-        }
-    ]
+  "playlists": [
+    {
+      "playlistID": 1,
+      "playlist_name": "Chill Vibes",
+      "playlist_author": "DJ Spinall",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "Night Drive - Artist A",
+        "Ocean Sounds - Artist B",
+        "Lofi Love - Artist C",
+        "Midnight Rain - Artist D",
+        "Peaceful Minds - Artist E",
+        "Sundown Dreams - Artist F",
+        "Moonlight Jam - Artist G",
+        "Lazy Days - Artist H",
+        "Evening Glow - Artist I",
+        "Starfall - Artist J"
+      ]
+    },
+    {
+      "playlistID": 2,
+      "playlist_name": "You ain't gymming like me",
+      "playlist_author": "DJ Greg",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "Beast Mode - Greg 1",
+        "Sweat Nation - Greg 2",
+        "Pump It Up - Greg 3",
+        "Rep Count - Greg 4",
+        "Final Set - Greg 5",
+        "Hustle Anthem - Greg 6",
+        "Muscle March - Greg 7",
+        "Cardio Burner - Greg 8",
+        "Iron Soul - Greg 9",
+        "No Pain No Gain - Greg 10"
+      ]
+    },
+    {
+      "playlistID": 3,
+      "playlist_name": "Hip Hop Mix",
+      "playlist_author": "DJ Elikem",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "Old School - Elikem 1",
+        "Trap Lord - Elikem 2",
+        "Bars Reloaded - Elikem 3",
+        "Street Flow - Elikem 4",
+        "Cypher Code - Elikem 5",
+        "Bounce It - Elikem 6",
+        "Freestyle Fire - Elikem 7",
+        "Grind Heavy - Elikem 8",
+        "No Filter - Elikem 9",
+        "Elite Bars - Elikem 10"
+      ]
+    },
+    {
+      "playlistID": 4,
+      "playlist_name": "Summer Vibes",
+      "playlist_author": "DJ Gabe",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "Sunshine Avenue - Gabe 1",
+        "Beach Bounce - Gabe 2",
+        "Tropical Jam - Gabe 3",
+        "Lemonade Skies - Gabe 4",
+        "Palm Trees - Gabe 5",
+        "Pool Party - Gabe 6",
+        "Breezy Beats - Gabe 7",
+        "Coastal Drift - Gabe 8",
+        "Seaside Sounds - Gabe 9",
+        "Sandstorm Groove - Gabe 10"
+      ]
+    },
+    {
+      "playlistID": 5,
+      "playlist_name": "Focus Flow",
+      "playlist_author": "DJ Calm",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "Deep Work - Calm 1",
+        "Mind Zone - Calm 2"
+      ]
+    },
+    {
+      "playlistID": 6,
+      "playlist_name": "Afrobeats Party",
+      "playlist_author": "DJ Kofi",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "Afro Heat - Kofi 1",
+        "Lagos Groove - Kofi 2"
+      ]
+    },
+    {
+      "playlistID": 7,
+      "playlist_name": "Study Night",
+      "playlist_author": "DJ Wiz",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "Book Mode - Wiz 1",
+        "Library Air - Wiz 2"
+      ]
+    },
+    {
+      "playlistID": 8,
+      "playlist_name": "Throwback Thursday",
+      "playlist_author": "DJ Timewarp",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "Classic Fire - Timewarp 1",
+        "Retro Love - Timewarp 2"
+      ]
+    },
+    {
+      "playlistID": 9,
+      "playlist_name": "Sunday Worship",
+      "playlist_author": "DJ Blessed",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "Grace Flow - Blessed 1",
+        "Hallelujah High - Blessed 2"
+      ]
+    },
+    {
+      "playlistID": 10,
+      "playlist_name": "Late Night Drive",
+      "playlist_author": "DJ Nova",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "City Lights - Nova 1",
+        "Night Riders - Nova 2"
+      ]
+    },
+    {
+      "playlistID": 11,
+      "playlist_name": "Morning Boost",
+      "playlist_author": "DJ Rise",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "Wake Up Anthem - Rise 1",
+        "Golden Rays - Rise 2"
+      ]
+    },
+    {
+      "playlistID": 12,
+      "playlist_name": "Jazz & Juice",
+      "playlist_author": "DJ Smooth",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "Blue Note - Smooth 1",
+        "Cool Breeze - Smooth 2"
+      ]
+    },
+    {
+      "playlistID": 13,
+      "playlist_name": "Gospel Gold",
+      "playlist_author": "DJ Faith",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "Glory Days - Faith 1",
+        "Spirit Rise - Faith 2"
+      ]
+    },
+    {
+      "playlistID": 14,
+      "playlist_name": "K-Drama OSTs",
+      "playlist_author": "DJ Seoul",
+      "playlist_art": "assets/img/playlist.png",
+      "songs": [
+        "Tearful Love - Seoul 1",
+        "Snow Blossom - Seoul 2"
+      ]
+    }
+  ]
 }
