@@ -1,59 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Music Playlist Explorer</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Playlist Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Music Playlist Explorer</h1>
+      <a href="featured.html" class="featured-link">🎯 Go to Featured Page</a>
+    </header>
 
-  <header>
-    <h1>Music Playlist Explorer</h1>
-    <a href="featured.html" class="featured-link">🎯 Go to Featured Page</a>
-  </header>
+    <section class="add-playlist-form">
+      <h2>Add New Playlist</h2>
+      <form id="playlistForm">
+        <input type="text" id="newName" placeholder="Playlist Name" required />
+        <input
+          type="text"
+          id="newAuthor"
+          placeholder="Playlist Author"
+          required
+        />
+        <textarea
+          id="newSongs"
+          placeholder="Songs (one per line, format: Title - Artist - Duration, e.g. Bohemian Rhapsody - Queen - 5:55)"
+          required
+        ></textarea>
+        <button type="submit">➕ Add Playlist</button>
+      </form>
+    </section>
 
-  <section class="add-playlist-form">
-    <h2>Add New Playlist</h2>
-    <form id="playlistForm">
-      <input type="text" id="newName" placeholder="Playlist Name" required />
-      <input type="text" id="newAuthor" placeholder="Playlist Author" required />
-      <textarea id="newSongs" placeholder="Songs (one per line)" required></textarea>
-      <button type="submit">➕ Add Playlist</button>
-    </form>
-  </section>
+    <section class="controls">
+      <input
+        type="text"
+        id="searchBar"
+        placeholder="🔍 Search by title or author"
+      />
+      <select id="sortBy">
+        <option value="">Sort By</option>
+        <option value="name">Name (A-Z)</option>
+        <option value="likes">Most Liked</option>
+      </select>
+    </section>
 
-  <section class="controls">
-    <input type="text" id="searchBar" placeholder="🔍 Search by title or author" />
-    <select id="sortBy">
-      <option value="">Sort By</option>
-      <option value="name">Name (A-Z)</option>
-      <option value="likes">Most Liked</option>
-    </select>
-  </section>
+    <main>
+      <section id="playlist-gallery"></section>
+    </main>
 
-  <main>
-    <section id="playlist-gallery"></section>
-  </main>
-
-  <div id="modal" class="modal hidden">
-    <div class="modal-content">
-      <span class="close-button">&times;</span>
-      <div class="modal-details">
-        <img src="assets/img/playlist.png" alt="Playlist Cover" />
-        <div>
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div class="modal-details">
+          <img src="assets/img/playlist.png" alt="Playlist Cover" />
           <h2>Playlist Details</h2>
           <p>Creator Name</p>
         </div>
+        <div class="modal-song-container">
+          <h3>Songs</h3>
+          <ul class="song-list"></ul>
+        </div>
       </div>
-      <ul class="song-list"></ul>
     </div>
-  </div>
 
-  <footer>
-    <p>&copy; 2025 Music Playlist Explorer</p>
-  </footer>
+    <footer>
+      <p>&copy; 2025 Music Playlist Explorer</p>
+    </footer>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

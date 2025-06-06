@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Featured Playlist</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <div class="header-container centered-header">
-      <h1>Music Playlist Explorer</h1>
-      <a href="index.html" class="nav-link">All Playlists</a>
-    </div>
-  </header>
-
-  <main>
-    <section id="featured-container">
-      <div id="featured-art-container">
-        <img id="featured-art" src="" alt="Featured Playlist Image" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Featured Playlist</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container centered-header">
+        <h1>Music Playlist Explorer</h1>
+        <a href="index.html" class="nav-link">All Playlists</a>
       </div>
-      <div id="featured-details">
-        <h2 id="featured-title"></h2>
-        <p id="featured-author"></p>
-        <p><span id="featured-likes"></span></p>
-        <h3>Songs</h3>
-        <ul id="featured-song-list"></ul>
-      </div>
-    </section>
-  </main>
+    </header>
 
-  <footer>
-    <p>&copy; 2025 Music Playlist Explorer</p>
-  </footer>
-  <script src="script.js"></script>
-</body>
+    <main>
+      <section id="featured-container">
+        <div id="featured-art-container">
+          <img id="featured-art" src="" alt="Featured Playlist Image" />
+          <h3
+            id="featured-playlist-name"
+            class="playlist-name-under-image"
+          ></h3>
+        </div>
+        <div id="featured-details">
+          <h2 id="featured-title"></h2>
+          <p id="featured-author"></p>
+          <p><span id="featured-likes"></span></p>
+          <h3>Songs</h3>
+          <ul id="featured-song-list"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Music Playlist Explorer</p>
+    </footer>
+    <script src="featured.js"></script>
+  </body>
 </html>

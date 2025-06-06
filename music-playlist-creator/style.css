@@ -93,7 +93,7 @@ header {
 
 #playlist-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, 1fr); /* Exactly 4 columns */
   gap: 1rem;
   padding: 1rem;
   max-width: 1200px;
@@ -105,19 +105,34 @@ header {
   border-radius: 8px;
   overflow: hidden;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Changed to column for better layout in grid */
   position: relative;
-  transition: box-shadow 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  height: auto; /* Auto height instead of fixed */
 }
 
 .playlist-card:hover {
-  box-shadow: 0 0 16px rgba(255, 215, 0, 0.2);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+  transform: translateY(-5px);
+  background-color: #2d5466;
 }
 
-.playlist-card img {
+.playlist-card-image {
+  width: 100%; /* Full width of card */
+  height: 160px; /* Fixed height for consistency */
+  overflow: hidden;
+}
+
+.playlist-card-image img {
   width: 100%;
-  height: 140px;
+  height: 100%;
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.playlist-card:hover .playlist-card-image img {
+  transform: scale(1.1);
 }
 
 .playlist-card .card-body {
@@ -191,11 +206,14 @@ header {
 
 .modal-content {
   background-color: #274956;
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 8px;
   width: 90%;
-  max-width: 600px;
+  max-width: 800px;
   position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 .close-button {
@@ -209,29 +227,62 @@ header {
 
 .modal-details {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 0.75rem;
+  width: 35%;
+  max-width: 300px;
 }
 
 .modal-details img {
-  width: 120px;
-  height: 120px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+  display: block; /* Ensure it's displayed as a block element */
+  max-width: 100%; /* Ensure it doesn't exceed its container */
 }
 
 .modal-details h2 {
   margin-bottom: 0.25rem;
   font-size: 1.25rem;
+  text-align: center;
 }
 
 .modal-details p {
   font-size: 0.9rem;
   color: #d1d5db;
+  text-align: center;
 }
 
-#shuffle-btn {
+.modal-song-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .modal-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .modal-details {
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
+
+  .modal-song-container {
+    width: 100%;
+  }
+}
+
+#shuffle-btn,
+.shuffle-button {
   padding: 0.5rem 1rem;
   background-color: #17a2b8;
   color: #fff;
@@ -239,9 +290,13 @@ header {
   border-radius: 4px;
   cursor: pointer;
   margin-bottom: 0.75rem;
+  font-size: 0.9rem; /* Make the font smaller */
+  display: inline-block; /* Prevent it from taking full width */
+  margin-top: 1rem;
 }
 
-#shuffle-btn:hover {
+#shuffle-btn:hover,
+.shuffle-button:hover {
   background-color: #138896;
 }
 
@@ -273,26 +328,59 @@ header {
 
 #featured-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #featured-art-container {
-  width: 90%;
-  max-width: 600px;
+  width: 40%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
 }
 
 #featured-art {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: block; /* Ensure it's displayed as a block element */
+  max-width: 100%; /* Ensure it doesn't exceed its container */
+  margin-bottom: 0.5rem;
+}
+
+.playlist-name-under-image {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #ffd700;
 }
 
 #featured-details {
-  margin-top: 1rem;
-  width: 90%;
+  width: 50%;
   max-width: 600px;
+}
+
+/* Add responsive layout for smaller screens */
+@media (max-width: 768px) {
+  #featured-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #featured-art-container {
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
+
+  #featured-details {
+    width: 90%;
+  }
 }
 
 #featured-details h2 {
