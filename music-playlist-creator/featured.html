@@ -7,35 +7,31 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
-    <h1>🎧 Featured Playlist</h1>
-    <a href="index.html" class="featured-link">⬅ Back to All Playlists</a>
-    <button id="shuffle-featured" class="featured-btn">🎲 Shuffle Again</button>
-    <button id="top-liked" class="featured-btn">🔥 Top Liked</button>
+    <div class="header-container centered-header">
+      <h1>Music Playlist Explorer</h1>
+      <a href="index.html" class="nav-link">All Playlists</a>
+    </div>
   </header>
 
-  <main class="featured-layout">
-    <section class="featured-left">
-      <img id="featured-art" src="" alt="Playlist Cover" />
-      <h2 id="featured-name">Playlist Name</h2>
-      <p id="featured-author">by DJ Name</p>
-      <p id="featured-likes">
-        ❤️ <span id="like-count">0</span>
-        <button id="like-button">🤍</button>
-      </p>
-    </section>
-
-    <section class="featured-right">
-      <h3>Songs</h3>
-      <ul id="featured-songs" class="song-list"></ul>
+  <main>
+    <section id="featured-container">
+      <div id="featured-art-container">
+        <img id="featured-art" src="" alt="Featured Playlist Image" />
+      </div>
+      <div id="featured-details">
+        <h2 id="featured-title"></h2>
+        <p id="featured-author"></p>
+        <p><span id="featured-likes"></span></p>
+        <h3>Songs</h3>
+        <ul id="featured-song-list"></ul>
+      </div>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Music Playlist Explorer</p>
   </footer>
-
-  <script src="featured.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

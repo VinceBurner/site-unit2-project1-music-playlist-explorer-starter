@@ -4,172 +4,182 @@
       "playlistID": 1,
       "playlist_name": "Chill Vibes",
       "playlist_author": "DJ Spinall",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/simpson.jpeg",
       "songs": [
-        "Night Drive - Artist A",
-        "Ocean Sounds - Artist B",
-        "Lofi Love - Artist C",
-        "Midnight Rain - Artist D",
-        "Peaceful Minds - Artist E",
-        "Sundown Dreams - Artist F",
-        "Moonlight Jam - Artist G",
-        "Lazy Days - Artist H",
-        "Evening Glow - Artist I",
-        "Starfall - Artist J"
+        { "title": "Night Drive", "artist": "Artist A", "duration": "3:12" },
+        { "title": "Ocean Sounds", "artist": "Artist B", "duration": "4:05" },
+        { "title": "Lofi Love", "artist": "Artist C", "duration": "2:48" },
+        { "title": "Midnight Rain", "artist": "Artist D", "duration": "3:35" },
+        { "title": "Peaceful Minds", "artist": "Artist E", "duration": "3:59" }
       ]
     },
     {
       "playlistID": 2,
       "playlist_name": "You ain't gymming like me",
       "playlist_author": "DJ Greg",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/low.jpeg",
       "songs": [
-        "Beast Mode - Greg 1",
-        "Sweat Nation - Greg 2",
-        "Pump It Up - Greg 3",
-        "Rep Count - Greg 4",
-        "Final Set - Greg 5",
-        "Hustle Anthem - Greg 6",
-        "Muscle March - Greg 7",
-        "Cardio Burner - Greg 8",
-        "Iron Soul - Greg 9",
-        "No Pain No Gain - Greg 10"
+        { "title": "Beast Mode", "artist": "Greg", "duration": "3:50" },
+        { "title": "Sweat Nation", "artist": "Greg", "duration": "3:33" },
+        { "title": "Pump It Up", "artist": "Greg", "duration": "4:01" },
+        { "title": "Rep Count", "artist": "Greg", "duration": "2:56" },
+        { "title": "Final Set", "artist": "Greg", "duration": "3:28" }
       ]
     },
     {
       "playlistID": 3,
       "playlist_name": "Hip Hop Mix",
       "playlist_author": "DJ Elikem",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/kendrick.jpeg",
       "songs": [
-        "Old School - Elikem 1",
-        "Trap Lord - Elikem 2",
-        "Bars Reloaded - Elikem 3",
-        "Street Flow - Elikem 4",
-        "Cypher Code - Elikem 5",
-        "Bounce It - Elikem 6",
-        "Freestyle Fire - Elikem 7",
-        "Grind Heavy - Elikem 8",
-        "No Filter - Elikem 9",
-        "Elite Bars - Elikem 10"
+        { "title": "Old School", "artist": "Elikem", "duration": "3:42" },
+        { "title": "Trap Lord", "artist": "Elikem", "duration": "4:00" },
+        { "title": "Bars Reloaded", "artist": "Elikem", "duration": "2:55" },
+        { "title": "Street Flow", "artist": "Elikem", "duration": "3:37" },
+        { "title": "Cypher Code", "artist": "Elikem", "duration": "3:20" }
       ]
     },
     {
       "playlistID": 4,
       "playlist_name": "Summer Vibes",
       "playlist_author": "DJ Gabe",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/g.jpeg",
       "songs": [
-        "Sunshine Avenue - Gabe 1",
-        "Beach Bounce - Gabe 2",
-        "Tropical Jam - Gabe 3",
-        "Lemonade Skies - Gabe 4",
-        "Palm Trees - Gabe 5",
-        "Pool Party - Gabe 6",
-        "Breezy Beats - Gabe 7",
-        "Coastal Drift - Gabe 8",
-        "Seaside Sounds - Gabe 9",
-        "Sandstorm Groove - Gabe 10"
+        { "title": "Sunshine Avenue", "artist": "Gabe", "duration": "3:33" },
+        { "title": "Beach Bounce", "artist": "Gabe", "duration": "4:10" },
+        { "title": "Tropical Jam", "artist": "Gabe", "duration": "3:48" },
+        { "title": "Lemonade Skies", "artist": "Gabe", "duration": "3:20" },
+        { "title": "Palm Trees", "artist": "Gabe", "duration": "4:01" }
       ]
     },
     {
       "playlistID": 5,
       "playlist_name": "Focus Flow",
       "playlist_author": "DJ Calm",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/wefea.jpeg",
       "songs": [
-        "Deep Work - Calm 1",
-        "Mind Zone - Calm 2"
+        { "title": "Deep Work", "artist": "Calm", "duration": "3:59" },
+        { "title": "Mind Zone", "artist": "Calm", "duration": "3:30" },
+        { "title": "Silent Drive", "artist": "Calm", "duration": "4:02" },
+        { "title": "Study Cloud", "artist": "Calm", "duration": "3:25" },
+        { "title": "Tunnel Focus", "artist": "Calm", "duration": "3:38" }
       ]
     },
     {
       "playlistID": 6,
       "playlist_name": "Afrobeats Party",
       "playlist_author": "DJ Kofi",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/wrwefw.jpeg",
       "songs": [
-        "Afro Heat - Kofi 1",
-        "Lagos Groove - Kofi 2"
+        { "title": "Afro Heat", "artist": "Kofi", "duration": "3:34" },
+        { "title": "Lagos Groove", "artist": "Kofi", "duration": "4:01" },
+        { "title": "Naija Beat", "artist": "Kofi", "duration": "3:17" },
+        { "title": "Accra Moves", "artist": "Kofi", "duration": "3:58" },
+        { "title": "Island Dance", "artist": "Kofi", "duration": "4:05" }
       ]
     },
     {
       "playlistID": 7,
       "playlist_name": "Study Night",
       "playlist_author": "DJ Wiz",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/h.jpeg",
       "songs": [
-        "Book Mode - Wiz 1",
-        "Library Air - Wiz 2"
+        { "title": "Book Mode", "artist": "Wiz", "duration": "2:55" },
+        { "title": "Library Air", "artist": "Wiz", "duration": "3:36" },
+        { "title": "Notebook Jazz", "artist": "Wiz", "duration": "4:02" },
+        { "title": "Focus Frame", "artist": "Wiz", "duration": "3:20" },
+        { "title": "Lamp Light", "artist": "Wiz", "duration": "3:45" }
       ]
     },
     {
       "playlistID": 8,
       "playlist_name": "Throwback Thursday",
       "playlist_author": "DJ Timewarp",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/g.jpeg",
       "songs": [
-        "Classic Fire - Timewarp 1",
-        "Retro Love - Timewarp 2"
+        { "title": "Classic Fire", "artist": "Timewarp", "duration": "3:44" },
+        { "title": "Retro Love", "artist": "Timewarp", "duration": "4:15" },
+        { "title": "Vinyl Heart", "artist": "Timewarp", "duration": "3:28" },
+        { "title": "Old Flames", "artist": "Timewarp", "duration": "4:09" },
+        { "title": "Memory Lane", "artist": "Timewarp", "duration": "3:51" }
       ]
     },
     {
       "playlistID": 9,
       "playlist_name": "Sunday Worship",
       "playlist_author": "DJ Blessed",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/cat.jpeg",
       "songs": [
-        "Grace Flow - Blessed 1",
-        "Hallelujah High - Blessed 2"
+        { "title": "Grace Flow", "artist": "Blessed", "duration": "4:00" },
+        { "title": "Hallelujah High", "artist": "Blessed", "duration": "3:49" },
+        { "title": "Praise Rise", "artist": "Blessed", "duration": "3:55" },
+        { "title": "Faith Beats", "artist": "Blessed", "duration": "3:42" },
+        { "title": "Spiritual Vibes", "artist": "Blessed", "duration": "4:10" }
       ]
     },
     {
       "playlistID": 10,
       "playlist_name": "Late Night Drive",
       "playlist_author": "DJ Nova",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/aefae.jpeg",
       "songs": [
-        "City Lights - Nova 1",
-        "Night Riders - Nova 2"
+        { "title": "City Lights", "artist": "Nova", "duration": "4:00" },
+        { "title": "Night Riders", "artist": "Nova", "duration": "3:35" },
+        { "title": "Gas Station Blues", "artist": "Nova", "duration": "3:48" },
+        { "title": "Dash Away", "artist": "Nova", "duration": "3:20" },
+        { "title": "Moon Chase", "artist": "Nova", "duration": "4:03" }
       ]
     },
     {
       "playlistID": 11,
       "playlist_name": "Morning Boost",
       "playlist_author": "DJ Rise",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/b.jpeg",
       "songs": [
-        "Wake Up Anthem - Rise 1",
-        "Golden Rays - Rise 2"
+        { "title": "Wake Up Anthem", "artist": "Rise", "duration": "3:12" },
+        { "title": "Golden Rays", "artist": "Rise", "duration": "3:38" },
+        { "title": "Fresh Start", "artist": "Rise", "duration": "4:05" },
+        { "title": "Energy Mode", "artist": "Rise", "duration": "3:45" },
+        { "title": "Sun Up", "artist": "Rise", "duration": "3:33" }
       ]
     },
     {
       "playlistID": 12,
       "playlist_name": "Jazz & Juice",
       "playlist_author": "DJ Smooth",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/c.jpeg",
       "songs": [
-        "Blue Note - Smooth 1",
-        "Cool Breeze - Smooth 2"
+        { "title": "Blue Note", "artist": "Smooth", "duration": "4:12" },
+        { "title": "Cool Breeze", "artist": "Smooth", "duration": "3:57" },
+        { "title": "Sax Appeal", "artist": "Smooth", "duration": "4:08" },
+        { "title": "Mellow Wave", "artist": "Smooth", "duration": "3:41" },
+        { "title": "Jazz Garden", "artist": "Smooth", "duration": "3:50" }
       ]
     },
     {
       "playlistID": 13,
       "playlist_name": "Gospel Gold",
       "playlist_author": "DJ Faith",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/d.jpeg",
       "songs": [
-        "Glory Days - Faith 1",
-        "Spirit Rise - Faith 2"
+        { "title": "Glory Days", "artist": "Faith", "duration": "4:01" },
+        { "title": "Spirit Rise", "artist": "Faith", "duration": "3:58" },
+        { "title": "Praise Shine", "artist": "Faith", "duration": "4:00" },
+        { "title": "Heavenly Sounds", "artist": "Faith", "duration": "3:45" },
+        { "title": "Peace Flow", "artist": "Faith", "duration": "4:03" }
       ]
     },
     {
       "playlistID": 14,
       "playlist_name": "K-Drama OSTs",
       "playlist_author": "DJ Seoul",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "assets/img/e.jpeg",
       "songs": [
-        "Tearful Love - Seoul 1",
-        "Snow Blossom - Seoul 2"
+        { "title": "Tearful Love", "artist": "Seoul", "duration": "4:05" },
+        { "title": "Snow Blossom", "artist": "Seoul", "duration": "3:50" },
+        { "title": "Time Passes", "artist": "Seoul", "duration": "4:08" },
+        { "title": "Secret Moon", "artist": "Seoul", "duration": "3:38" },
+        { "title": "Rain Romance", "artist": "Seoul", "duration": "3:59" }
       ]
     }
   ]
