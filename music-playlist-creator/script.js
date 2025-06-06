@@ -151,7 +151,6 @@ window.addEventListener("DOMContentLoaded", () => {
                 <span>${song.artist}</span>
                 <span>${song.duration}</span>
               </div>
-              <div style="color: #a0a0a0; font-size: 0.9rem; margin-top: 2px;">Album name</div>
             </div>
           `;
           songList.appendChild(li);
@@ -182,7 +181,6 @@ window.addEventListener("DOMContentLoaded", () => {
                   <span>${song.artist}</span>
                   <span>${song.duration}</span>
                 </div>
-                <div style="color: #a0a0a0; font-size: 0.9rem; margin-top: 2px;">Album name</div>
               </div>
             `;
             songList.appendChild(li);
