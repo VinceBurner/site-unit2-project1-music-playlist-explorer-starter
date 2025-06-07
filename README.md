@@ -1,5 +1,3 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
-
 ## Unit Assignment: Music Playlist Explorer
 
 Submitted by: Vincent Anim-Addo
@@ -132,23 +130,28 @@ Deployed Application (**required**): https://site-unit2-project1-music-playlist-
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. Ensure your walkthrough showcases the presence and/or functionality of all features you implemented above (check them off as you film!). Pay attention to any **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS** checkboxes listed above to ensure graders see the full functionality of your website! (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+<div>
+    <a href="https://www.loom.com/share/a77ea85f55774109ad78ebf212cfce49">
+      <p>Videos | Library | Loom - 6 June 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/a77ea85f55774109ad78ebf212cfce49">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/a77ea85f55774109ad78ebf212cfce49-1d939138fd28bbc3-full-play.gif">
+    </a>
+  </div>
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+Yes because it kinda gave basic insights into what i was to expect when working on the project. I was unprepared to fix in the By Date sorting option and also a pop-up window that had specific sections for details when adding new songs, editing playlists or adding new playlists
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+I would start the project all over again and make it much more functional and appealing visually( I might start working on it tonight).
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+Creating the playlists was fun because I didn't have to hard-code the playlists in my html file. Adding new playlists was surprisingly hard and tricky so that took a while before I got the hang  of it. Yes I noticed that most of them had buttons that gave pop-up windows where they could add new playlists cleanly and easily due to the individual sections in their pop-ups.
 
 ### Open-source libraries used
 
@@ -157,3 +160,4 @@ Add your response here
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+Big shoutouts to Greg, Elikem, Gabe and basically everyone in my cohort because every one was super supportive from start to finish.
